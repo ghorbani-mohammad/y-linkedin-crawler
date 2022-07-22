@@ -1,0 +1,7 @@
+services:
+  crawler_django:
+    container_name: crawler_django
+    build: .
+    command: ['python', '/app/crawler/manage.py', 'runserver', '0:80']
+    volumes:
+      - .:/app
