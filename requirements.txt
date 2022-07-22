@@ -3,3 +3,4 @@ celery
 redis
 selenium
 requests
+django-environ
