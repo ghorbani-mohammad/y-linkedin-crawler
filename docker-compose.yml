@@ -5,6 +5,8 @@ services:
     command: ['python', '/app/crawler/manage.py', 'runserver', '0:80']
     volumes:
       - .:/app
+    ports:
+      - 8025:80
   
   crawler_redis:
     container_name: crawler_redis
