@@ -1,3 +1,5 @@
 django
 celery
 redis
+selenium
+requests

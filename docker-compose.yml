@@ -25,3 +25,9 @@ services:
     command: ['sh', '-c', 'cd /app/crawler && celery -A crawler worker -l info']
     volumes:
       - .:/app
+  
+  crawler_firefox:
+    container_name: crawler_firefox
+    image: selenium/standalone-firefox
+    ports:
+      - 7900:7900
