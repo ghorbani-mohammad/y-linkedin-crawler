@@ -1,4 +1,13 @@
-# 0.1.0 (2022-07-25)
+## [0.1.1](https://github.com/ghorbani-mohammad/youtube-crawler/compare/v0.1.0...v0.1.1) (2022-07-25)
+
+
+### Bug Fixes
+
+* read secret-key from env ([29dc53e](https://github.com/ghorbani-mohammad/youtube-crawler/commit/29dc53eba46803a4394e2b8f5e17f0ddfcb14fa8))
+
+
+
+# [0.1.0](https://github.com/ghorbani-mohammad/youtube-crawler/compare/9cc76e6259c2eed15a7af0da8518411d8cf07d79...v0.1.0) (2022-07-25)
 
 
 ### Features
