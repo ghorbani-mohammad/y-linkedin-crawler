@@ -90,9 +90,6 @@ AUTH_PASSWORD_VALIDATORS = [
 ]
 
 
-# Internationalization
-# https://docs.djangoproject.com/en/4.0/topics/i18n/
-
 USE_TZ = True
 USE_I18N = True
 TIME_ZONE = 'UTC'
